@@ -1,0 +1,146 @@
+.section{
+    background-color: #fff;
+    color: #fff;
+}
+.fileContainer {
+    left: 29%;
+    overflow: hidden;
+    padding-right: 49px;
+    position: absolute;
+    top: 6%;
+}
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+/* Example stylistic flourishes */
+.fileContainer [type=file] {
+    cursor: pointer;
+}
+
+.image{
+    margin-left: 35px;
+}
+
+.input{
+    background-color: #f4f8fb;
+    border: 1px solid #f4f8fb;
+    margin: 24px;
+}
+.button-submit{
+    margin: 24px;
+}
+
+.fileContainer-csv {
+    height: 141px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+}
+
+.fileContainer-csv [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    height: 40px;
+    width: 135px;
+    opacity: 0;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    z-index: 5;
+}
+/* Example stylistic flourishes */
+.fileContainer-csv [type=file] {
+    cursor: pointer;
+}
+
+.fileContainer-att {
+    left: 29%;
+    overflow: hidden;
+    position: relative;
+    top: 6%;
+    overflow: hidden;
+}
+.fileContainer-att [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+/* Example stylistic flourishes */
+.fileContainer-att [type=file] {
+    cursor: pointer;
+}
+
+.fileContainer-stu-csv [type=file] {
+    cursor: pointer;
+}
+
+.fileContainer-stu-csv  {
+    overflow: hidden;
+    padding-right: 34px;
+    position: absolute;
+    right: 12%;
+    top: 0;
+    width: 179px;
+}
+.fileContainer-stu-csv  [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+/* Example stylistic flourishes */
+.fileContainer-stu-csv  [type=file] {
+    cursor: pointer;
+}
+
+.fileContainer-achive{
+    left: 3%;
+    overflow: hidden;
+    position: absolute;
+    top: 258%;
+}
+
+.fileContainer-achive  [type=file]{
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+.fileContainer-achive  [type=file] {
+    cursor: pointer;
+}
